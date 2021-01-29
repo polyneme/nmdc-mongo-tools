@@ -13,7 +13,6 @@ NMDC_JSON_SCHEMA_URL=https://raw.githubusercontent.com/microbiomedata/nmdc-metad
 NMDC_MONGO_HOST=<host>
 NMDC_MONGO_USERNAME=<username>
 NMDC_MONGO_PWD=<password>
-NMDC_MONGO_DBNAME=<database-name>
 ```
 
 , setting appropriate values for connecting to a MongoDB instance. As an alternative to `NMDC_JSON_SCHEMA_URL`, you may

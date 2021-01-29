@@ -31,13 +31,12 @@ else:
 collschemas = collschemas_for(dbschema)
 
 
-def get_db():
+def get_db(dbname):
     client = MongoClient(
         host=os.getenv("NMDC_MONGO_HOST"),
         username=os.getenv("NMDC_MONGO_USERNAME"),
         password=os.getenv("NMDC_MONGO_PWD"),
     )
-    dbname = os.getenv("NMDC_MONGO_DBNAME")
     return client[dbname]
 
 
