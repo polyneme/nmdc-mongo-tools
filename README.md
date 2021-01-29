@@ -4,7 +4,6 @@ Tools for validation and storage of JSON data using the [NMDC Schema](https://gi
 
 ```
 pip install nmdc-mongo-tools
-# 
 ```
 
 Create a `.env` file in your working directory and add the following lines to it:
