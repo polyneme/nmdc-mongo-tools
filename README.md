@@ -24,5 +24,12 @@ Then, import from the `nmdc_mongo` package, e.g.
 ```python
 from nmdc_mongo import get_db
 
-db = get_db()
+db = get_db("dwinston_share")
+db.list_collection_names()
+
+# ['metagenome_assembly_set', 'omics_processing_set', 'metaproteomics_analysis_activity_set', 'mags_activity_set',
+# 'read_QC_analysis_activity_set', 'nom_analysis_activity_set', 'biosample_set', 'read_based_analysis_activity_set',
+# 'study_set', 'metabolomics_analysis_activity_set', 'metagenome_annotation_activity_set', 'data_object_set',
+# 'raw.functional_annotation_set']
+
 ```
